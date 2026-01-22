@@ -27,11 +27,15 @@ public class GuessingGame {
             }
         }
 
-        
+        System.out.println(
+            "You've exhausted all attempts. The correct number was: "
+            + number);
+
+        sc.close();
     
-    
-    
-    
-    
+    }
+
+    public static void main(String[] args) {
+        guessingNumber();
     }
 }
