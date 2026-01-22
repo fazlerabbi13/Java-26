@@ -23,9 +23,11 @@ public class GuessingGame {
             }else if (guessNumber < number) {
                 System.out.println("The number is greater then " + guessNumber);
             }else{
-                System.out.println("");
+                System.out.println("The number is less then " + guessNumber);
             }
         }
+
+        
     
     
     
