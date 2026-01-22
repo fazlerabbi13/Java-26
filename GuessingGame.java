@@ -20,6 +20,10 @@ public class GuessingGame {
                 System.out.println("Congratulations! You guessed the correct number.");
                 sc.close();
                 return;
+            }else if (guessNumber < number) {
+                System.out.println("The number is greater then " + guessNumber);
+            }else{
+                System.out.println("");
             }
         }
     
