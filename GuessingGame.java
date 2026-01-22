@@ -15,7 +15,12 @@ public class GuessingGame {
         for(int i = 0; i < k; i++){
             System.out.println("Enter your guess number: ");
             int guessNumber = sc.nextInt();
-            
+
+            if(guessNumber == number){
+                System.out.println("Congratulations! You guessed the correct number.");
+                sc.close();
+                return;
+            }
         }
     
     
