@@ -10,7 +10,7 @@ public class GuessingGame {
         int k = 5;
 
         System.out.println("Choose a number between 1 to 100.");
-        System.out.println("You have just " + k + "attempts to guess the correct number.");
+        System.out.println("You have just " + k + " attempts to guess the correct number.");
     
         for(int i = 0; i < k; i++){
             System.out.println("Enter your guess number: ");
